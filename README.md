@@ -7,3 +7,7 @@
         pandas
 	
         matplotlib
+	
+	
+    You need to just run the python file 
+    python3 stockprice.py
