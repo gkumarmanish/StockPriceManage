@@ -1,5 +1,9 @@
-Require to install following packages:
-    Python3
-    yfinance
-    pandas
-    matplotlib
+    Require to install following packages
+
+        Python3
+	
+        yfinance
+	
+        pandas
+	
+        matplotlib
