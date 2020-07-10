@@ -78,7 +78,11 @@ class StockPriceManagement(object):
 
 
 sp = StockPriceManagement() #Get the Class Object
+
 res_data = sp.get_data() #Get the Stock Price Data using yfinance default for Conpany: MS start_date = '2020-03-01', end_date='2020-07-31', interval='1wk' you can pass your value
+
 process_data = sp.prepare_process_data(res_data) #Prepare the data for the Closing Values
+
 dates, percentage_values, process_values = sp.get_data_higer_than_given_percentage(process_data) #Get Values Higher that the given percentage value
+
 sp.plot_graph(dates, percentage_values, process_values) #Plot the Graph using Matlab
